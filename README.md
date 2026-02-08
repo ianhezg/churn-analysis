@@ -6,10 +6,10 @@ Customer churn is a major driver of revenue loss in subscription-based and consu
 This project aims to build a data-driven solution to:
 
 - Predict customer churn probability
-- Estimate customer lifetime value (CLV)
+- Estimate customer lifetime value (CLTV)
 - Support retention and marketing decision-making
 
-The solution is designed to be production-ready, enabling integration with downstream systems via APIs.
+The solution is designed to be production-ready, enabling integration with final user.
 
 ---
 
@@ -36,28 +36,28 @@ The dataset was chosen to reflect common challenges in real-world customer analy
 - Class imbalance
 - Feature quality issues
 
+Source: Kaggle ((Telco Customer Churn)[https://www.kaggle.com/datasets/blastchar/telco-customer-churn])
+
 ---
 
 ## 4. Approach Overview
 
 The project follows an end-to-end data science lifecycle:
 
-1. Exploratory Data Analysis (EDA) and data quality assessment
+1. Exploratory Data Analysis (EDA)
 2. Feature engineering based on customer behavior and lifecycle concepts
-3. Baseline statistical and machine learning models
-4. Model evaluation and comparison
+3. Machine learning models (Logistic Regression)
+4. Model evaluation and comparison (Tuning parameters/regularization)
 5. Model deployment via API
-6. Experiment tracking and versioning
 
 ---
 
 ## 5. Tech Stack
 
 - **Programming:** Python
-- **Data Analysis:** pandas, numpy
-- **Statistics & ML:** scikit-learn, statsmodels, PyTorch
-- **Experiment Tracking:** MLflow
-- **API:** FastAPI
+- **Data Analysis:** pandas, numpy, seaborn
+- **Statistics & ML:** scikit-learn, statsmodels
+- **Web Application:** Flask/Waitress
 - **Containerisation:** Docker
 - **Cloud:** AWS (S3, Lambda, API Gateway)
 
@@ -70,6 +70,7 @@ Model performance is evaluated using:
 - ROC-AUC
 - Precision / Recall
 - F1-score
+- TP/TN/FN/FP
 
 Metrics were selected to balance business impact and model reliability, considering class imbalance.
 
@@ -80,19 +81,17 @@ Metrics were selected to balance business impact and model reliability, consider
 🚧 **Work in progress**
 
 - [x] Project setup
-- [ ] Exploratory data analysis
-- [ ] Feature engineering
-- [ ] Model training
+- [x] Exploratory data analysis
+- [x] Feature engineering
+- [x] Model training
 - [ ] Deployment
 
 ---
 
 ## 8. Next Steps
 
-- Implement baseline churn models
-- Add experiment tracking with MLflow
 - Deploy model as a cloud-based API
-- Extend solution to CLV prediction
+- Evaluate different models (decision tree, random forest, neural networks)
 
 ---
 
@@ -101,4 +100,4 @@ Metrics were selected to balance business impact and model reliability, consider
 **Gabriel Ianhez Pereira dos Santos**  
 Data Scientist | Statistics Background  
 [LinkedIn](https://www.linkedin.com/in/gabriel-ianhez-pereira-dos-santos/)
-
+[GitHub](https://github.com/ianhezg)
