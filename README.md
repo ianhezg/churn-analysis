@@ -36,7 +36,7 @@ The dataset was chosen to reflect common challenges in real-world customer analy
 - Class imbalance
 - Feature quality issues
 
-Source: Kaggle ((Telco Customer Churn)[https://www.kaggle.com/datasets/blastchar/telco-customer-churn])
+Source: Kaggle ([Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn))
 
 ---
 
