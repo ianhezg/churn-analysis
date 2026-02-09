@@ -84,7 +84,7 @@ Metrics were selected to balance business impact and model reliability, consider
 - [x] Exploratory data analysis
 - [x] Feature engineering
 - [x] Model training
-- [ ] Deployment
+- [x] Deployment
 
 ---
 
