@@ -12,6 +12,7 @@ flask = "*"
 numpy = "*"
 scikit-learn = "*"
 waitress = "*"
+gunicorn = "*"
 
 [dev-packages]
 
