@@ -5,12 +5,13 @@ name = "pypi"
 
 [packages]
 pandas = "*"
-numpy = "*"
 matplotlib = "*"
 seaborn = "*"
-scikit-learn = "*"
 requests = "*"
 flask = "*"
+numpy = "*"
+scikit-learn = "*"
+waitress = "*"
 
 [dev-packages]
 
