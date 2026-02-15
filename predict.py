@@ -2,13 +2,7 @@ import pickle
 import os
 from flask import  Flask, request, jsonify
 
-base_dir = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(base_dir, '..', 'models', 'model_c1.bin')
-model_path = os.path.abspath(model_path)
-
-print(f"Loading model from: {model_path}")
-
-with open(model_path, 'rb') as f_in:
+with open('model_c1.bin', 'rb') as f_in:
     dv, model = pickle.load(f_in)
 
 app = Flask('churn')
