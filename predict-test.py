@@ -1,6 +1,8 @@
 import requests
 
-url = 'http://localhost:9696/predict'
+host_name = '3.104.223.136:9696' # ECS instance public IP address and port number
+
+url = f'http://{host_name}/predict'
 
 data = {
     "gender": "female",
