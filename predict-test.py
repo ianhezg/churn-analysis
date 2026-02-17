@@ -1,6 +1,6 @@
 import requests
 
-host_name = '3.104.223.136:9696' # ECS instance public IP address and port number
+host_name = '13.239.36.5:9696'
 
 url = f'http://{host_name}/predict'
 
