@@ -1,4 +1,6 @@
-# Customer Churn & Lifetime Value Prediction (End-to-End Data Science Project)
+# Customer Churn (End-to-End Data Science Project)
+
+Stack: Python, ECS, Docker, Flask
 
 ## 1. Business Problem
 
