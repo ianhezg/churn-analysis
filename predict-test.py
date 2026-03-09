@@ -1,6 +1,6 @@
 import requests
 
-host_name = '3.25.131.36:9696'
+host_name = '13.211.255.178:9696'
 
 url = f'http://{host_name}/predict'
 
